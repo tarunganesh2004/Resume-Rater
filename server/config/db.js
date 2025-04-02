@@ -1,3 +1,4 @@
+// @ts-nocheck
 const { Sequelize } = require('sequelize');
 require('dotenv').config();
 
