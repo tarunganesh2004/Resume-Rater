@@ -23,6 +23,7 @@
     "nodemon": "^3.1.9",
     "pdf-parse": "^1.1.1",
     "python-shell": "^5.0.0",
+    "resume-rater-server": "file:",
     "sequelize": "^6.37.7"
   },
   "devDependencies": {
