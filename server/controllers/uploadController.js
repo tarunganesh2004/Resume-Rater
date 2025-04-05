@@ -10,7 +10,7 @@ const uploadResume = async (req, res) => {
     try {
         const dataBuffer = fs.readFileSync(filePath);
         const data = await pdfParse(dataBuffer);
-        const analysis = await analyzeResume(data.text);
+        const analysis = await analyzeResume(data.text); // Now uses BERT
 
         const resume = await Resume.create({
             user_id: userId,
